@@ -15,4 +15,4 @@ class Vehicle(models.Model):
 
 
     def __str__(self):
-        return f'{self.brand} {self.model} {self.plate}'
+        return f'{self.brand} {self.vehicle_model} {self.plate}'
